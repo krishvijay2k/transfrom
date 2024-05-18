@@ -1,0 +1,254 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container-section{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left:30px ;
+    margin-right: 30px;
+    
+}
+
+.top-section{
+    display: flex;
+}
+
+.middle-section{
+    display: flex;
+    padding-top: 30px;
+}
+
+.bottom-section{
+    display: flex;
+    padding-top: 30px;
+}
+
+.last-section{
+    display: flex;
+    padding-top: 30px;
+}
+
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+h1{
+    color:rgb(0, 0, 0);
+    padding-left: 40px;
+    background-color: darkgrey;
+}
+h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    background-color: darkgrey;
+}
+
+img{
+    animation-name: ani;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img2{
+    animation-name: ani-2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img3{
+    animation-name: ani-3;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img4{
+    animation-name: ani-4;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img5{
+    animation-name: ani-5;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+.img6{
+    animation-name: ani-6;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img7{
+    animation-name: ani-7;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img8{
+    animation-name: ani-8;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img9{
+    animation-name: ani-9;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img10{
+    animation-name: ani-10;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img11{
+    animation-name: ani-11;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.img12{
+    animation-name: ani-12;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+
+@keyframes ani {
+
+    from{
+        transform:translateY(-50px)
+    }
+} 
+
+@keyframes ani-2 {
+
+    from{
+        transform:translateX(50px)
+    }
+}
+
+@keyframes ani-3 {
+
+    from{
+        transform:translate(50px,50px)
+    }
+}
+
+
+@keyframes ani-4 {
+
+    from{
+        transform: rotateX(50deg);
+    }
+} 
+
+
+@keyframes ani-5 {
+
+    from{
+        transform: rotateY(50deg);
+    }
+} 
+
+
+@keyframes ani-6 {
+
+    from{
+        transform: rotateZ(50deg);
+    }
+    to{
+        transform:rotateZ(-50deg);
+    }
+}
+
+@keyframes ani-7 {
+    from{
+        transform: scaleY(0.1);
+
+    }
+}
+
+@keyframes ani-8 {
+    from{
+        transform: scaleX(0.1);
+
+    }
+}
+@keyframes ani-9 {
+    from{
+        transform: scale(0.2);
+
+    }
+}
+
+@keyframes ani-10 {
+    from{
+        transform:skewY(-50deg);
+
+    }
+}
+
+@keyframes ani-11 {
+    from{
+        transform: skewX(30deg);
+
+    }
+} 
+
+
+
+@keyframes ani-12 {
+    from{
+        transform: skewY(-40deg);
+
+    }
+    to{
+        transform: skewX(40deg);
+    }
+}
